@@ -4,6 +4,8 @@ This is a Python script that helps UC Merced students get the classes they need 
 
 It's recommended that you let this run on your computer 24/7 in the background while you do other things. Whenever you hear the alert sound, you can check back on the script to see which class is open. This script requires a stable and constant internet connection. If this is interrupted at any time then the script will not function and you will have to restart it when you regain a connection.
 
+You can read about how this was developed here: https://shawnduong.github.io/Creating-a-Coursicle-Clone-in-Python
+
 ## Installation
 
 Installation is fairly simple. Just clone the git repository and run the `script.py` Python script. Make sure that you have the following dependencies installed:
