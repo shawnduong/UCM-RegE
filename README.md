@@ -1,5 +1,7 @@
 # UC Merced Registration Eye
 
+![](./img/example.png)
+
 This is a Python script that helps UC Merced students get the classes they need by alerting them when seats open up. This script works by reading a list of CRNs (course reference numbers) from the `courses.list` file, getting the URLs for the respective courses from the saved `page.html` file (last updated April 2020), and then scraping the online course page to see if there are any open seats. If there are open seats, the program will play a simple alert sound.
 
 It's recommended that you let this run on your computer 24/7 in the background while you do other things. Whenever you hear the alert sound, you can check back on the script to see which class is open. This script requires a stable and constant internet connection. If this is interrupted at any time then the script will not function and you will have to restart it when you regain a connection.
