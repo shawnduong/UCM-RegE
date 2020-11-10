@@ -79,8 +79,8 @@ def check_courses(courses: dict) -> None:
 
 def main() -> None:
 
-	print("Registration Eye (v. Fall 2020)")
-	print("Author: Shawn Duong, aka IrisCS s.kat.")
+	print("Registration Eye (v. Spring 2021)")
+	print("Author: Shawn Duong, aka IrisSec skat")
 	print("Please see the README.md for setup instructions!")
 	print()
 
