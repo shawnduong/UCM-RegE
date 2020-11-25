@@ -1,11 +1,14 @@
 def banner():
 
 	print("+-------------------------------------------------+")
-	print("| UC Merced Registration Eye v2.0                 |")
+	print("| UC Merced Registration Eye v2.1                 |")
 	print("| Compatible with Spring 2021 registration.       |")
 	print("| Source: https://github.com/shawnduong/UCM-RegE/ |")
 	print("| Author: https://shawnd.xyz/                     |")
 	print("+-------------------------------------------------+")
+	print()
+	print("v2.1 changelog:")
+	print("- Fixed a whitespace in CRN bug.")
 	print()
 
 def check_dependencies():
@@ -49,7 +52,7 @@ def make_crnlist(path):
 
 	while True:
 
-		if (crn := input("Enter a CRN (x to finish): ")) == "x":
+		if (crn := input("Enter a CRN (x to finish): ").replace(" ", "")) == "x":
 			break
 		elif re.match("\d{5}", crn):
 			data += f"{crn}\n"
