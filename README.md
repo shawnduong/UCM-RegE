@@ -4,7 +4,7 @@ This program helps UC Merced students be alerted whenever a seat in a class they
 
 ## Dependencies
 
-This program requires an installation of Python 3.8 as well as the following non-standard Python libraries:
+This program requires an installation of Python 3.8 and VLC as well as the following non-standard Python libraries:
 
 - `beautifulsoup4`
 - `python-vlc`
